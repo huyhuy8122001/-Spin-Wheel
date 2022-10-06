@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(/bg_imgs/WorldCup-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+
+}
+
+/* NAVBAR */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #e7eae1;
+    color: #290606;
+  }
+/* END TOPNAV */
+
+.parents-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 12px solid #dec9b8;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    /* transform: rotate(90deg); */
+    
+}
+
+.container div{
+    height: 50%;
+    width: 200px;
+    position: absolute;
+    clip-path: polygon(38% 0 , 50% 100% , 0 0 );
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: right;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    left: 135px;
+
+
+}
+
+.container .one{
+    background-color: #c63527;
+    /* transform: rotate(0deg); */
+    left: 50%;
+    background-image: url(/bg_imgs/aletico-bg.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200px;
+}
+.container .two{
+    background-color: #001489;
+    transform: rotate(17.14deg);
+    background-image: url(/bg_imgs/Chelsea-bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 165px;
+}
+.container .three{
+    background-color: #111836;
+    transform: rotate(32.14deg);
+    background-image: url(/bg_imgs/tot-bg.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 160px;
+}
+.container .four{
+    background-color: #da072c;
+    transform: rotate(49.28deg);
+    background-image: url(/bg_imgs/bayern3-bg.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130px;
+}
+.container .five{
+    background-color: #011ea0;
+    transform: rotate(64.28deg);
+    background-image: url(/bg_imgs/Inter-bg1.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 124px;
+}
+.container .six{
+    background-color: #ffd900;
+    transform: rotate(81.42deg);
+    background-image: url(/bg_imgs/dourtmund-bg.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130px;
+}
+.container .seven{
+    background-color: #b71515;
+    transform: rotate(98.56deg);
+    background-image: url(/bg_imgs/klop_bg.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 280px;
+}
+.container .eight{
+    background-color: #f44336;
+    transform: rotate(113.56deg);
+    background-image: url(/bg_imgs/ajax-bg.jpg);
+    background-position: top left ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 140px;
+}
+.container .nine{
+    background-color: #f8da5b;
+    transform: rotate(130.7deg);
+    background-image: url(/bg_imgs/holiday_card.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 90px;
+}
+.container .ten{
+    background-color: #003090;
+    transform: rotate(145.7deg);
+    background-image: url(/bg_imgs/lei-bg.jpg);
+    background-position: top left ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 125px;
+}
+.container .eleven{
+    background-color: #c70101;
+    transform: rotate(162.84deg);
+    background-image: url(/bg_imgs/mu-jennie.jpg);
+    background-position: center left ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 140px;
+}
+.container .twelve{
+    background-color: #7c2c3b;
+    transform: rotate(179.98deg);
+    background-image: url(/bg_imgs/westham-bg.jpg);
+    background-position: top left ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 125px;
+}
+.container .thirteen{
+    background-color: #151e2d;
+    transform: rotate(197.12deg);
+    background-image: url(/bg_imgs/mbappe-meme.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130px;
+}
+.container .fourteen{
+    background-color: #2484ca;
+    transform: rotate(212.12deg);
+    background-image: url(/bg_imgs/napoli-bg.png);
+    background-position: top right ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 250px;
+}
+.container .fifteen{
+    background-color: #181732;
+    transform: rotate(229.26deg);
+    background-image: url(/bg_imgs/barcelona-bg1.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 150px;
+}
+.container .sixteen{
+    background-color: #0067b2;
+    transform: rotate(244.26deg);
+    background-image: url(/bg_imgs/atalanta-bg.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 320px;
+}
+.container .seventeen{
+    background-color: #000000;
+    transform: rotate(261.4deg);
+    background-image: url(/bg_imgs/juve1-bg.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 300px;
+}
+.container .eightteen{
+    background-color: #98c5e9;
+    transform: rotate(278.54deg);
+    background-image: url(/national_flags/argentina.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 125px;
+}
+.container .nineteen{
+    background-color: #990a2c;
+    transform: rotate(293.54deg);
+    background-image: url(/bg_imgs/as-roma-bg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 160px;
+}
+.container .twenty{
+    background-color: #fff;
+    transform: rotate(310.68deg);
+    background-image: url(/bg_imgs/real3-bg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 140px;
+} 
+.container .twenty-one{
+    background-color: #fff;
+    transform: rotate(325.68deg);
+    background-image: url(/bg_imgs/porto-bg.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 135px;
+}
+.container .twenty-two{
+    background-color: #f00000;
+    transform: rotate(342.82deg);
+    background-image: url(/bg_imgs/arsenal1-bg.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 160px;
+}
+ /* .container .twenty-three{
+    background-color: #f44336;
+    transform: rotate(330deg);
+}
+.container .twenty-four{
+    background-color: #36f4ee;
+    transform: rotate(345deg); 
+} */
+
+/* .container .twenty-five{
+    background-color: #000000;
+    transform: rotate(360deg);
+}
+.container .twenty-six{
+    background-color: #36f4ee;
+    transform: rotate(375deg);
+}
+.container .twenty-seven{
+    background-color: #973ef6;
+    transform: rotate(390deg);
+} */
+
+
+.arrow {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.arrow::before{
+    content: "\1F817";
+    font-size: 50px;
+}
+
+#spin {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #dec9b8;
+    text-transform: uppercase;
+    border: 1px solid #dec9b8;
+    font-weight: bold;
+    font-size: 15px;
+    color: #787676;
+    width: 60px;
+    height: 60px;
+    font-family: sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 1.5s;
+    
+}
+audio{
+    display: none;
+}
